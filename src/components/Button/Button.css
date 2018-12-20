@@ -1,0 +1,35 @@
+.Button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:40px;
+    min-width: 60px;
+    width: 60px;
+    cursor:pointer;
+    border-radius:2px;
+    background: #66ccff;
+    color:white;
+    text-align:center;
+    font-family: 'arial';
+    user-select: none;
+}
+
+.Button:hover{
+    background:#1ab2ff;
+}
+
+.Button:active{
+    background: #80d4ff;
+}
+
+.Button.secondary{
+    background: #ff3300;
+}
+
+.Button.secondary:hover{
+    background: #cc2900;
+}
+
+.Button.secondary:active{
+    background: #ff5c33;
+}
