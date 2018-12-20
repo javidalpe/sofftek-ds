@@ -1,0 +1,23 @@
+/**
+  Alert styles
+*/
+
+.alert {
+  text-align: center;
+  border-radius: 0.25em;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#FFF;
+}
+
+.alert.success {
+  background-color: rgb(46, 204, 113);
+}
+
+.alert.danger {
+  background-color: rgba(240, 52, 52, 1);
+}
+
+.alert.warning {
+  background-color: rgba(247, 202, 24, 1);
+}
