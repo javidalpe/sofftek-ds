@@ -1,0 +1,3 @@
+```js
+<Panel>Hola</Panel>
+```
