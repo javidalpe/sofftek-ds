@@ -9,5 +9,5 @@ export class Badge extends React.Component {
 }
 
 Badge.propTypes = {
-	message: PropTypes.string.isRequired
+	text: PropTypes.string.isRequired
 };
